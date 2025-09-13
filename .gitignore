@@ -1,0 +1,48 @@
+# Arquivos de compilação Java
+*.class
+
+# Diretórios de build comuns
+/bin/
+/out/
+/build/
+/target/
+
+# Arquivos empacotados
+*.jar
+*.war
+*.ear
+
+# Logs e temporários
+*.log
+logs/
+.tmp/
+*.tmp
+
+# IDEs e ferramentas
+# IntelliJ / JetBrains
+.idea/
+*.iml
+# Eclipse
+.classpath
+.project
+.settings/
+# VS Code
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup de editores
+*~
+*.swp
+
+# Cache diversas ferramentas
+.gradle/
+.mvn/
+
+# Relatórios ou saídas opcionais
+/report/
+
+# Histórico de debug
+hs_err_pid*.log
