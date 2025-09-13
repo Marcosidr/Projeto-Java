@@ -1,10 +1,11 @@
+// Classe que representa um paciente da clínica
 public class Paciente {
     private static int contador = 1;
     private int id;
     private String nome;
     private int idade;
     private String sintoma;
-// CRIAR O CONSTRUTOR, GETTERS, SETTERS E MÉTODO PARA EXIBIR INFORMAÇÕES DO PACIENTE
+    // Construtor atribui um id único e inicializa os dados do paciente
     public Paciente(String nome, int idade, String sintoma) {
         this.id = contador++;
         this.nome = nome;
@@ -12,6 +13,7 @@ public class Paciente {
         this.sintoma = sintoma;
     }
 
+    // Getters e setters para encapsulamento dos atributos
     public int getId() {
         return id;
     }
@@ -39,7 +41,7 @@ public class Paciente {
     public void setSintoma(String sintoma) {
         this.sintoma = sintoma;
     }
-    // Método para exibir informações do paciente
+    // Método para exibir informações do paciente de forma formatada
     public String exibirInfo() {
         return "ID: " + id + " | Nome: " + nome + " | Idade: " + idade + " | Sintoma: " + sintoma;
     }
