@@ -4,7 +4,7 @@ public class Paciente {
     private String nome;
     private int idade;
     private String sintoma;
-
+// CRIAR O CONSTRUTOR, GETTERS, SETTERS E MÉTODO PARA EXIBIR INFORMAÇÕES DO PACIENTE
     public Paciente(String nome, int idade, String sintoma) {
         this.id = contador++;
         this.nome = nome;
@@ -39,7 +39,7 @@ public class Paciente {
     public void setSintoma(String sintoma) {
         this.sintoma = sintoma;
     }
-
+    // Método para exibir informações do paciente
     public String exibirInfo() {
         return "ID: " + id + " | Nome: " + nome + " | Idade: " + idade + " | Sintoma: " + sintoma;
     }
